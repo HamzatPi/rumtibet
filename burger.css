@@ -69,20 +69,97 @@
 }
 
 .menu-item:hover {
- color:#f2be22 ;
+  color: #f2be22;
 }
 
 .burger-checkbox:checked ~ .menu-list {
   transform: translateX(0);
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 576px) {
   .burger {
     display: block;
     top: 0;
-    left: 200px;
+    left: 190px;
   }
-
+  .impressions{
+    width: 100%;
+    height: 100%;
+  }
+  .newsletter__wrapper {
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    padding: 5px;
+    gap: 18px;
+}
+.newsletter__content {
+  text-align: left;
+}
+.newsletter__subtitle {
+  font-size: 16px;
+}
+.newsletter__title {
+  margin: 0;
+  font-size: 24px;
+}
+.newsletter__subscribe {
+  flex: 1 1 auto;
+}
+.newsletter__form {
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+.footer_top{
+  padding: 40px 0;
+}
+.newsletter__button {
+  margin: 15px 0;
+  flex: 1 1 44px;
+}
+.footer_top.wrapper {
+ 
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.footer__items {
+  flex: 1 1 280px;
+}
+.footer__contacts {
+  margin: 30px 0;
+}
+.footer__bottom-wrapper {
+  justify-content: center;
+}
+.newsletter__label {
+  flex: 1;
+}
+.newsletter__input {
+  width: 90%;
+}
+.newsletter__button {
+  flex: 1 1 44px;
+}
+  .media {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .programm.tur{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0 20px;
+  }
+  .later{
+    font-size: 14px;
+  }
+  h3{
+    font-size: 25px;
+  }
+  .house{
+    position: static;
+  }
+  .mountain {
+    display: none;
+  }
   .menu-list {
     width: 100%;
     transform: translateX(-100%);
@@ -102,9 +179,10 @@
     display: none;
   }
   h1 {
-    font-size: 38px;
+    font-size: 26px;
+    padding: 0 15px;
   }
-  form {
+  .date {
     flex-wrap: wrap;
     margin: auto;
   }
@@ -113,6 +191,7 @@
   }
   .content {
     margin: 0 20px;
+    padding: 20px;
   }
   .title {
     font-size: 25px;
@@ -126,12 +205,14 @@
     align-items: center;
     gap: 20px;
   }
-
 }
 @media (max-width: 992px) {
   .footer__top-wrapper {
     flex-wrap: wrap;
     gap: 50px;
+  }
+  .btn-tur{
+    width: 100%;
   }
   .blog_container {
     display: flex;
@@ -141,26 +222,25 @@
     display: flex;
     justify-content: center;
   }
+  .blog_slide{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
   .gallery_img {
     display: flex;
     flex-direction: column;
   }
-  .newsletter__wrapper {
-    width: auto;
-  }
-  .top_journey {
-    display: flex;
-    flex-direction: column;
-    width: 200px;
-    height: 200px;
-  }
-  .bottom_journey {
-    display: flex;
-    flex-direction: column;
-    width: 200px;
-    height: 200px;
-  }
+
+ .nature{
+  display: none;
+ }
   .offer_title {
     font-size: 25px;
   }
+  .play{
+    margin-left: 150px;
+    margin-top: -220px;
 }
+  }
+
